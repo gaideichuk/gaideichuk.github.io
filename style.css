@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	text-align: center;
+	font-size: 36px;
+	font-family: 'Roboto Slab', serif;
+	color: #414142;
+}
+.list-projects{
+	width: 90%;
+	max-width: 1100px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+h4{
+	width: 100%;
+	margin: 5px 0;
+	text-align: left;
+	color: #414142;
+	font-size: 16px;
+}
+h3{
+	width: 100%;
+	margin-bottom: 15px;
+	text-align: left;
+	color: #414142;
+	font-size: 14px;
+	border-bottom: 1px solid #414142;
+	display: inline-block;
+}
+ul{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr)
+}
+li{
+	list-style: none;
+	text-align: center;
+}
+li a{
+	text-decoration: none;
+	font-size: 24px; 
+	font-family: 'Coiny', cursive;
+	color: #0000FF;
+}
+li a:hover{
+	color: #ffea00;
+}
+@media screen and (max-width: 640px) {
+	ul{
+		display: grid;
+		grid-template-columns: repeat(4, 1fr)
+	}
+}
+@media screen and (max-width: 480px) {
+	ul{
+		display: grid;
+		grid-template-columns: repeat(3, 1fr)
+	}
+}
+@media screen and (max-width: 320px) {
+	ul{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr)
+	}
+}
