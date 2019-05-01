@@ -7,18 +7,6 @@ body{
 	background: #fff;
 	min-width: 320px;
 }
-.mypage{
-	position: fixed;
-	top: 10px;
-	left: 0;
-	text-decoration: none;
-	font-size: 24px; 
-	font-family: 'Coiny', cursive;
-	color: #0000ff;
-}
-.mypage:hover{
-	color: #ffea00;
-}
 header{
 	width: 90%;
 	margin: 0 auto;

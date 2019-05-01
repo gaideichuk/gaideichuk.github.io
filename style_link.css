@@ -1,0 +1,14 @@
+/* Link on home page */
+.mypage{
+	position: fixed;
+	top: 10px;
+	left: 0;
+	text-decoration: none;
+	font-size: 24px; 
+	font-family: 'Coiny', cursive;
+	color: #0000ff;
+}
+.mypage:hover{
+	color: #ffea00;
+}
+/* Link on home page */
