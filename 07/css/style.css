@@ -33,4 +33,27 @@ nav{
 .home-picture{
     height: 360px;
     background: url(../img/home-picture.jpg) center/cover no-repeat;
+    margin-bottom: 10px;
+}
+.home-description{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+}
+.home-description_block{
+    width: 33%;
+    margin-bottom: 20px;
+}
+.home-description_block img{
+    width: 150px;
+    margin-bottom: 5px;
+}
+.home-description_block h2{
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.home-description_block p{
+
 }
